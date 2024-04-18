@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Aref+Ruqaa+Ink:wght@400;700&family=Honk&display=swap');
+
+body{
+    background-image: url(./tsb/paisagem.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.login{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: end;
+    margin-top: 20px;
+    margin-right: 40px;
+
+}
+
+.login a{
+    /* deixar o testo maiusculo */
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 35px;
+    font-family: "Aref Ruqaa Ink", serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+h1{ 
+    text-transform: uppercase;
+    font-size: 90px;
+    color: beige;
+    font-family: "Indie flower", cusiver;
+    font-weight: 700;
+    text-align: center;
+}
+
+
+.informacoes p{
+    font-size: 30px;
+    color: beige;
+    text-transform: uppercase;
+    font-family: "indie flower", cursive;
+    font-weight: 500;
+    text-align: center;
+}
+
+#inputNome{
+    width: 500px;
+    
+    height: 40px; 
+     
+    border-style: none;
+    border-radius: 15px;
+    
+
+}
+
+#inputEmail{
+    /* LARGURA */
+    width: 325px;
+    /* ALTURA */
+    height: 40px; 
+     /* RETIRA A BORDA PRETA */
+    border-style: none;
+    /* ARRENDONDAR AS BORDAS  */
+    border-radius: 15px;
+}   
+
+.Botaologin{
+
+    width: 170px;
+    height: 40px;
+    color: black;
+    background-color: #3a86d6;
+    border-radius: 15px;
+    font-size: 30px;
+    text-transform: uppercase;
+    border-style: none;
+
+}
+
+.inputs{
+    display: flex;
+    flex-direction: column;
+    /* alianhar os item ao centro */
+    align-items: center;
+    /* almenta a margem do topo */
+    margin-top: 30px;
+
+}
+.entraEmail{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+
+.redes{
+    margin-top: 50px;
+    margin-left: 550px;
+
+}
+.redes img{
+    width: 40px;
+    
+}
